@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js"
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,10 @@
   "bugs": {
     "url": "https://github.com/KaisarF/bangkit-web-submission/issues"
   },
-  "homepage": "https://github.com/KaisarF/bangkit-web-submission#readme",
+  "homepage": ".",
   "dependencies": {
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
     "mongoose": "^7.1.1"
   },
   "devDependencies": {
